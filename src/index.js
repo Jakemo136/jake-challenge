@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
+import DemoContainer from './components/index';
+import demoData from './staticData/demos.json';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DemoContainer demoData={demoData} />
   </React.StrictMode>,
   document.getElementById('root')
 );

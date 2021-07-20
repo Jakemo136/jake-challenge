@@ -1,0 +1,21 @@
+.demo-list__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.demo-list__container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $color-border-grey;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.demo-list__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
