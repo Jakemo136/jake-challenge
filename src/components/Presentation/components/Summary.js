@@ -15,11 +15,11 @@ const Summary = ({presentationSummary}) => {
       </div>
       <div className="summary__slide-times">
         Slide times:
-        {slideTimes.map((slideTime) => {
+        {slideTimes.map((slideTime, idx) => {
           const { slide, time } = slideTime;
 
           return (
-            <div className="summary__slide-info">
+            <div className="summary__slide-info" key={`slide-${idx+1}`}>
               <div className="summary__slide-name">Slide: {slide}</div>
               <div className="summary__slide-time">Time: {time}</div>
             </div>

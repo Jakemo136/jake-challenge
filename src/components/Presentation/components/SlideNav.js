@@ -17,11 +17,10 @@ const SlideNav = ({ orderedSlides, currentSlide, selectSlide, navDisabled }) => 
           'slide-nav__slide-thumbnail';
 
         return (
-          <>
+          <div key={`thumbnail-${order}`}>
           {!navDisabled &&
             <button
               className={slideClassName}
-              key={`thumbnail-${order}`}
               onClick={() => selectSlide(slide)}
             >
               <SlideIcon className="slide-nav__slide-thumbnail-icon" />
@@ -34,7 +33,7 @@ const SlideNav = ({ orderedSlides, currentSlide, selectSlide, navDisabled }) => 
               <SlideIcon className="slide-nav__slide-thumbnail-icon" />
             </div>
           }
-          </>
+          </div>
         )}
       )}
     </div>
