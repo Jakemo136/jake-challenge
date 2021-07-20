@@ -1,0 +1,28 @@
+$font-family: 'Roboto', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+$color-white: #FFFFFF;
+$color-border-grey: #D4D4D4;
+$color-light-grey: #FAFAFA;
+$color-nav-grey: #CACACA;
+$color-highlight-grey: #bdbdbd;
+$color-blue: #2953be;
+$color-red: #9b3232;
+$color-dk-grey: #4C4C4C;
+
+
+/* resets */
+html, body, #root {
+  margin: 0;
+  font-family: $font-family;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+

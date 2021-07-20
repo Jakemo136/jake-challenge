@@ -1,0 +1,36 @@
+.demo-list__demo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  border: 1px solid $color-border-grey;
+  border-radius: 4px;
+  background-color: $color-light-grey;
+  margin: 1.5rem 0 0 0;
+  padding: 1rem;
+}
+
+.demo-list__demo-info {
+  padding-right: 3rem;
+}
+
+.demo-list__demo-name {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: .33rem;
+}
+
+.demo-list__demo-slide-count {
+  font-size: .75rem;
+  font-weight: 400;
+}
+
+.demo-list__demo-start-button {
+  height: 100%;
+  color: $color-white;
+  background-color: $color-blue;
+  border: 1px solid $color-blue;
+  border-radius: 4px;
+  padding: .5rem .75rem;
+}

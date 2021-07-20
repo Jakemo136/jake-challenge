@@ -1,8 +1,80 @@
 [
   {
-    "name": "Jake's demo",
-    "slides": {
-      
-    }
+    "id": "jake-demo",
+    "name": "Jake's demo presentation slideshow test",
+    "slides": [
+      { "order": 0,
+        "id": "jake-demo-card-1",
+        "slideContent": "Web"
+      },
+      { "order": 1,
+        "id": "jake-demo-card-2",
+        "slideContent": "HTML"
+      },
+      { "order": 2,
+        "id": "jake-demo-card-3",
+        "slideContent": "Image"
+      },
+      { "order": 3,
+        "id": "jake-demo-card-4",
+        "slideContent": "HTML"
+      }
+    ]
+  },
+  {
+    "id": "blinker-fluid",
+    "name": "How to change your blinker fluid",
+    "slides": [
+      { "order": 0,
+        "id": "blinker-fluid-1",
+        "slideContent": "Image"
+      },
+      { "order": 1,
+        "id": "blinker-fluid-2",
+        "slideContent": "Web"
+      },
+      { "order": 2,
+        "id": "blinker-fluid-3",
+        "slideContent": "Web"
+      },
+      { "order": 6,
+        "id": "blinker-fluid-4",
+        "slideContent": "HTML"
+      },
+      { "order": 4,
+        "id": "blinker-fluid-5",
+        "slideContent": "Web"
+      }
+    ]
+  },
+  {
+    "id": "bake-eggs",
+    "name": "When is baking an egg the right choice?",
+    "slides": [
+      { "order": 0,
+        "id": "bake-eggs-1",
+        "slideContent": "HTML"
+      },
+      { "order": 1,
+        "id": "bake-eggs-2",
+        "slideContent": "HTML"
+      },
+      { "order": 2,
+        "id": "bake-eggs-3",
+        "slideContent": "Web"
+      },
+      { "order": 3,
+        "id": "bake-eggs-4",
+        "slideContent": "Image"
+      },
+      { "order": 4,
+        "id": "bake-eggs-5",
+        "slideContent": "Web"
+      },
+      { "order": 5,
+        "id": "bake-eggs-6",
+        "slideContent": "Image"
+      }
+    ]
   }
 ]
